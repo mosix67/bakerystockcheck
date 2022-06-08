@@ -92,4 +92,9 @@ with st.container():
     tickerDf = tickerData.history(
         period='1d', start='2010-1-1', end='2020-1-25')
     st.line_chart(tickerDf.Close)
+    st.write("## Close information")
     st.line_chart(tickerDf.Volume)
+    st.write("## Volume information")
+    st.line_chart(tickerData.recommendations)
+    st.write("## Recommendations")
+    st.line_chart(tickerData.calendar)
