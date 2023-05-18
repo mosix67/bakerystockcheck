@@ -1,3 +1,3 @@
 # bakerystockcheck
 
-This is a practice application to check for bakery firms (listed on NYSE) stock performance chart 
+This is a test application intended to review the stock performance charts of bakery companies listed on the New York Stock Exchange.
